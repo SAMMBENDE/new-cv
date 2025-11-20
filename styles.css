@@ -38,7 +38,7 @@ body {
 .resume_wrapper {
   display: flex;
   width: 800px;
-  margin: 25px auto;
+  margin: 5px auto;
   background: #fff;
   padding: 2px;
 }
@@ -54,9 +54,11 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_image img {
-  width: 100%;
+  width: 80%;
   border-color: #26252d;
   display: block;
+  margin: 10px auto;
+  border-radius: 20%;
 }
 
 .resume_wrapper .resume_title {
@@ -73,11 +75,11 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_bottom {
-  padding: 20px 30px;
+  padding: 15px 20px;
 }
 
 .resume_wrapper .resume_item {
-  padding: 20px 0;
+  padding: 18px 0;
   /* border-bottom: 1px solid #0175b2; */
 }
 
@@ -138,7 +140,7 @@ body {
 .resume_wrapper .resume_left .resume_contact .interests {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .resume_wrapper .resume_left .resume_contact .interests .blue {
